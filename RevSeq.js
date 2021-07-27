@@ -1,19 +1,4 @@
-// const reverseSeq = n => {
-//     for (let i = 0; i < n.length; i++){
-//         return [];
-//     }
-//   };
-
-
-// function reverseSeq(n) {
-//     let text = "";
-//     for (let i = 0; i <= n; i++){
-//         text += "The number is " + i + "\n";
-//     }
-//     return text;
-//   };
-
-function reverseSeq(n) {
+const reverseSeq = n => {
     let arr = [];
     let amount = n;
     for (let i = 0; i < amount; i++){
@@ -22,6 +7,17 @@ function reverseSeq(n) {
     }
     return arr;
   };
+
+
+// function reverseSeq(n) {
+//     let arr = [];
+//     let amount = n;
+//     for (let i = 0; i < amount; i++){
+//         arr.push(n);
+//         n = n - 1;
+//     }
+//     return arr;
+//   };
 
 console.log(reverseSeq(7)); // returns: [5, 4, 3, 2, 1]
 
